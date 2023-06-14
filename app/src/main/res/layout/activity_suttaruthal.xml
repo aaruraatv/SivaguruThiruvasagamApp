@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".suttaruthal">
+
+    <ImageView
+        android:id="@+id/topimg"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/nataraj"
+        android:scaleX="1.5"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="200dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suttaruthal"
+            android:textFontWeight="800"
+            android:textSize="20sp"
+            android:fontFamily="@font/kavi"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="15dp"
+            android:gravity="left"
+            android:paddingStart="10dp"
+            />
+    </ScrollView>
+
+</RelativeLayout>

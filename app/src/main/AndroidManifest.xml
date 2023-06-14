@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icnv1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icnv1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ListView"
+        tools:targetApi="31">
+        <activity
+            android:name=".Sivagnanam"
+            android:exported="false" />
+        <activity
+            android:name=".Thevaram"
+            android:exported="false" />
+        <activity
+            android:name=".GALLERY"
+            android:exported="false" />
+        <activity
+            android:name=".music"
+            android:exported="false" />
+        <activity
+            android:name=".more"
+            android:exported="false" />
+        <activity
+            android:name=".Main"
+            android:exported="false" />
+        <activity
+            android:name=".sivagnanvithu"
+            android:exported="false" />
+        <activity
+            android:name=".atheetham"
+            android:exported="false" />
+        <activity
+            android:name=".paravasam"
+            android:exported="false" />
+        <activity
+            android:name=".anantham"
+            android:exported="false" />
+        <activity
+            android:name=".karunyam"
+            android:exported="false" />
+        <activity
+            android:name=".anuboga"
+            android:exported="false" />
+        <activity
+            android:name=".kaimaru"
+            android:exported="false" />
+        <activity
+            android:name=".athmasuthi"
+            android:exported="false" />
+        <activity
+            android:name=".suttaruthal"
+            android:exported="false" />
+        <activity
+            android:name=".arivuruthal"
+            android:exported="false" />
+        <activity
+            android:name=".meiunarathal"
+            android:exported="false" />
+        <activity
+            android:name=".acho"
+            android:exported="false" />
+        <activity
+            android:name=".anandha"
+            android:exported="false" />
+        <activity
+            android:name=".padaiyatchi"
+            android:exported="false" />
+        <activity
+            android:name=".pandaya"
+            android:exported="false" />
+        <activity
+            android:name=".venba"
+            android:exported="false" />
+        <activity
+            android:name=".thirupadai"
+            android:exported="false" />
+        <activity
+            android:name=".enna"
+            android:exported="false" />
+        <activity
+            android:name=".varthai"
+            android:exported="false" />
+        <activity
+            android:name=".yathirai"
+            android:exported="false" />
+        <activity
+            android:name=".senni"
+            android:exported="false" />
+        <activity
+            android:name=".arputha"
+            android:exported="false" />
+        <activity
+            android:name=".kula"
+            android:exported="false" />
+        <activity
+            android:name=".polambal"
+            android:exported="false" />
+        <activity
+            android:name=".esaravu"
+            android:exported="false" />
+        <activity
+            android:name=".piditha"
+            android:exported="false" />
+        <activity
+            android:name=".thirupa"
+            android:exported="false" />
+        <activity
+            android:name=".acha"
+            android:exported="false" />
+        <activity
+            android:name=".uyiruni"
+            android:exported="false" />
+        <activity
+            android:name=".kulaitha"
+            android:exported="false" />
+        <activity
+            android:name=".pirathanai"
+            android:exported="false" />
+        <activity
+            android:name=".kanda"
+            android:exported="false" />
+        <activity
+            android:name=".kalukundram"
+            android:exported="false" />
+        <activity
+            android:name=".arul"
+            android:exported="false" />
+        <activity
+            android:name=".vala"
+            android:exported="false" />
+        <activity
+            android:name=".punarchi"
+            android:exported="false" />
+        <activity
+            android:name=".athisaya"
+            android:exported="false" />
+        <activity
+            android:name=".asai"
+            android:exported="false" />
+        <activity
+            android:name=".adaikala"
+            android:exported="false" />
+        <activity
+            android:name=".sethila"
+            android:exported="false" />
+        <activity
+            android:name=".koil"
+            android:exported="false" />
+        <activity
+            android:name=".koilmutha"
+            android:exported="false" />
+        <activity
+            android:name=".palli"
+            android:exported="false" />
+        <activity
+            android:name=".dhasangam"
+            android:exported="false" />
+        <activity
+            android:name=".kuil"
+            android:exported="false" />
+        <activity
+            android:name=".annai"
+            android:exported="false" />
+        <activity
+            android:name=".ponusal"
+            android:exported="false" />
+        <activity
+            android:name=".thonokkam"
+            android:exported="false" />
+        <activity
+            android:name=".unthiyar"
+            android:exported="false" />
+        <activity
+            android:name=".poovalli"
+            android:exported="false" />
+        <activity
+            android:name=".thiruchalal"
+            android:exported="false" />
+        <activity
+            android:name=".thellenam"
+            android:exported="false" />
+        <activity
+            android:name=".kothumbi"
+            android:exported="false" />
+        <activity
+            android:name=".porsunam"
+            android:exported="false" />
+        <activity
+            android:name=".ammanai"
+            android:exported="false" />
+        <activity
+            android:name=".vembavai"
+            android:exported="false" />
+        <activity
+            android:name=".nethalvinapam"
+            android:exported="false" />
+        <activity
+            android:name=".thiruchathagam"
+            android:exported="false" />
+        <activity
+            android:name=".potri_agaval"
+            android:exported="false" />
+        <activity
+            android:name=".andapaguthi"
+            android:exported="false" />
+        <activity
+            android:name=".top_bar"
+            android:exported="false" />
+        <activity
+            android:name=".Thiruvasagam"
+            android:exported="false" />
+        <activity
+            android:name=".kerthi"
+            android:exported="false" />
+        <activity
+            android:name=".sivapuranam"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6585285349986336~5933787025"/>
+    </application>
+
+</manifest>

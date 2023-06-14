@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".top_bar">
+
+
+    <ImageView
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#860000"
+        android:src="@drawable/menu_24"
+        android:paddingLeft="330dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="திருவாசகம்"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/kav"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:scaleY="1.8"
+        android:scaleX="1.8"
+        android:textFontWeight="750"
+        android:outlineSpotShadowColor="@color/black"
+        />
+
+
+</RelativeLayout>

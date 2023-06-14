@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".music">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="85"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="736dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/mpbg" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginBottom="20sp"
+        app:cardCornerRadius="15sp"
+        android:background="#5BD801">
+
+        <com.example.jean.jcplayer.view.JcPlayerView
+            android:id="@+id/jcplayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            app:next_icon_color="#E91E63"
+            app:repeat_icon_color="#E91E63"
+            app:random_icon_color="#E91E63"
+            app:play_icon_color="#A50000"
+            app:previous_icon_color="#E91E63"
+            app:seek_bar_color="#FF3300"
+            app:pause_icon_color="#7DC825"
+            app:progress_color="#8BC34A"
+            app:text_audio_current_duration_color="@color/black"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
+
+
+
+

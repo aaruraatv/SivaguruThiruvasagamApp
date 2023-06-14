@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".GALLERY">
+    <include layout="@layout/top_bar"/>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="65dp"
+    android:layout_centerHorizontal="true"
+    app:cardCornerRadius="25sp"
+    app:cardElevation="15sp"
+    >
+
+        <ImageView
+            android:id="@+id/front_image"
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/guru" />
+</androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:outlineSpotShadowColor="@color/black"
+        android:elevation="10dp"
+        android:text="திருவாசகம்"
+        android:textSize="25dp"
+        android:fontFamily="@font/kav"
+        android:textStyle="bold"
+        android:textFontWeight="1000"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="580dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:layout_alignTop="@+id/front_image"
+        />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:outlineSpotShadowColor="@color/black"
+        android:elevation="7dp"
+        android:text="தேவாரம்"
+        android:textSize="25dp"
+        android:fontFamily="@font/kav"
+        android:paddingTop="7dp"
+        android:textStyle="bold"
+        android:textFontWeight="1000"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="@id/btn1"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/btn1"
+        android:background="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:outlineSpotShadowColor="@color/black"
+        android:elevation="7dp"
+        android:text="சிவஞானவித்து"
+        android:textSize="25dp"
+        android:fontFamily="@font/kav"
+        android:paddingTop="7dp"
+        android:textStyle="bold"
+        android:textFontWeight="1000"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="@id/btn_2"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/btn_2"
+        android:background="@color/white"
+        />
+
+
+</RelativeLayout>
